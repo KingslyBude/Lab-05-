@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Lab05
+</name>
+</assembly>
+<members>
+<member name="T:Lab05.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Lab05.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Lab05.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Lab05.frmLab05">
+ <summary>
+ Title: Lab 05: Text Editor
+ Created By: Kingsly Bude
+ Created On: 2019-07-25
+ Last Modified: 2019-07-26 - Kingsly Bude
+ About: Demonstration of basic string readers as well as utilization of prebuilt .NET forms.
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.ExitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub Name: ExitToolStripMenuItem_Click
+ Event: OpenToolStripMenuItem.Click
+ About: Clicking "Exit" provides the user with a way to end the application
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.OpenToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: OpenToolStripMenuItem_Click
+ Event: OpenToolStripMenuItem.Click
+ About: Clicking "Open" on the menu strip opens a OpenFileDialog. The user can select a text file to open to the text editor to make adjustments.
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.SaveAsToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: SaveAsToolStripMenuItem_Click
+ Event: SaveAsToolStripMenuItem.Click
+ About: Clicking "Save As" on the menu strip opens a SaveFileDialog. Users can save the contents of the text editor to a new or existing file.
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.SaveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub Name: SaveToolStripMenuItem_Click
+ Event: SaveToolStripMenuItem.Click
+ About: Using "Save" in the menu strip will attempt to save to an existing file the editor is already working on automatically.
+        If there is no file path, the SaveFileDialog will be used and the user can choose to create a new or replace an exsisting file.
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.SaveFileDialog_FileOk(System.Object,System.ComponentModel.CancelEventArgs)">
+ <summary>
+ Sub Name: SaveFileDialog_FileOk
+ Event: SaveFileDialog.FileOk
+ About: Sends a message when the user saves a file using the SaveFileDialog
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.AboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: AboutToolStripMenuItem_Click
+ Event: AboutToolStripMenuItem.Click
+ About: Displays information after clink on "About" under "Help" in the menu strip
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.NewToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: NewToolStripMenuItem_Click
+ Event: NewToolStripMenuItem.Click
+ About: Displays information after clink on "About" under "Help" in the menu strip
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.CopyToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: CopyToolStripMenuItem_Click
+ Event: CopyToolStripMenuItem.Click
+ About: Copies the selected text in the textbox to the clipboard
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.PasteToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: PasteToolStripMenuItem_Click
+ Event: PasteToolStripMenuItem.Click
+ About: Pastes the contents of the clipboard to the text editor
+ </summary>
+</member>
+<member name="M:Lab05.frmLab05.CutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sub name: CutToolStripMenuItem_Click
+ Event: CutToolStripMenuItem.Click
+ About: Copies the selected text in the textbox to the clipboard, and deletes the selected text afterwards
+ </summary>
+</member>
+</members>
+</doc>

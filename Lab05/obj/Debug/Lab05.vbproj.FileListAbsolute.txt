@@ -1,0 +1,11 @@
+c:\users\kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\bin\Debug\Lab05.exe.config
+c:\users\kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.vbprojResolveAssemblyReference.cache
+c:\users\kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.Resources.resources
+c:\users\kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.vbproj.GenerateResource.Cache
+c:\users\kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.xml
+C:\Users\Kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\bin\Debug\Lab05.exe
+C:\Users\Kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\bin\Debug\Lab05.pdb
+C:\Users\Kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\bin\Debug\Lab05.xml
+C:\Users\Kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.exe
+C:\Users\Kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.pdb
+C:\Users\Kingsly\documents\visual studio 2015\Projects\Lab05\Lab05\obj\Debug\Lab05.frmLab05.resources
